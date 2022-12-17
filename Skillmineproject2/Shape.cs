@@ -32,7 +32,7 @@ namespace Skillmineproject2
 
     }
 
-      public class Ractangle : Shape
+    public class Ractangle : Shape
     {
         private int l;
         private int w;
@@ -40,6 +40,8 @@ namespace Skillmineproject2
 
         public Ractangle(int l,int w)
         {
+            
+
             this.l = l;
             this.w = w;
         }
@@ -59,3 +61,12 @@ namespace Skillmineproject2
 
 
 
+//ABSTRACT CLASS
+
+//Circle c = new Circle(6);
+//c.CalculateArea();
+//Console.WriteLine(c);
+
+//Ractangle r = new Ractangle(10, 20);
+//r.CalculateArea();
+//Console.WriteLine(r);

@@ -86,7 +86,7 @@ namespace Skillmineproject2
         }
     }
 
-      
+
     //public new void CalculateSalary()
     //{
     //    hra = basic * 0.40;
@@ -99,6 +99,15 @@ namespace Skillmineproject2
 
 
 
-}
+} //ABSTRACT CLASS
+
+//Circle c = new Circle(6);
+//c.CalculateArea();
+//Console.WriteLine(c);
+
+//Ractangle r = new Ractangle(10, 20);
+//r.CalculateArea();
+//Console.WriteLine(r);
+
 
 

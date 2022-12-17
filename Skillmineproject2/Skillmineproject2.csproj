@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Skillmineproject2.Program</StartupObject>
+    <StartupObject>Skillmineproject2.Collection.ExceptionDemo.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,15 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aemployee.cs" />
+    <Compile Include="Array\Astudent.cs" />
+    <Compile Include="Array\DisplayMatricx.cs" />
+    <Compile Include="Array\JaggedArray.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="Book2.cs" />
+    <Compile Include="Collection\ArraylistDemo.cs" />
+    <Compile Include="Collection\Employeinfo.cs" />
+    <Compile Include="Collection\ExceptionDemo.cs" />
+    <Compile Include="Collection\HashtableDemo.cs" />
+    <Compile Include="Collection\MarksException.cs" />
+    <Compile Include="Collection\QueueDemo.cs" />
+    <Compile Include="Collection\StackDemo.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="ExtensionMethod.cs" />
     <Compile Include="Outkey.cs" />
     <Compile Include="Paramkey.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Refkey.cs" />
     <Compile Include="Shape.cs" />
+    <Compile Include="StringClass\Stringfun.cs" />
+    <Compile Include="StringClass\ToggleLetter.cs" />
+    <Compile Include="StringClass\StringCompair.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
