@@ -27,7 +27,7 @@ namespace Skillmineproject2.Collection
 
             public void AcceptName(string name)
             {
-                if (name== null)
+                if (name==null)
                 {
                     throw new Exception("Name is Required");
                 }
