@@ -60,7 +60,7 @@ namespace Skillmineproject2.Collection
 
                 try
                 {
-                    s1.AcceptName( null);
+                    s1.AcceptName(null);
                 }
                 catch(Exception ex)
                 {

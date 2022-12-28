@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Skillmineproject2.ArrayC.Movezero</StartupObject>
+    <StartupObject>Skillmineproject2.MultithredingC.Demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,14 +57,24 @@
     <Compile Include="Book.cs" />
     <Compile Include="Book2.cs" />
     <Compile Include="Collection\ArraylistDemo.cs" />
+    <Compile Include="Collection\BooklibraryList.cs" />
+    <Compile Include="Collection\CategoryandProductDetailsList.cs" />
     <Compile Include="Collection\Employeinfo.cs" />
     <Compile Include="Collection\ExceptionDemo.cs" />
+    <Compile Include="Collection\GenericListBankAccount.cs" />
+    <Compile Include="Collection\GenericlistDepartment.cs" />
+    <Compile Include="Collection\GerericListp.cs" />
     <Compile Include="Collection\HashtableDemo.cs" />
     <Compile Include="Collection\MarksException.cs" />
     <Compile Include="Collection\QueueDemo.cs" />
     <Compile Include="Collection\StackDemo.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="EventsAndDeligets\BankED.cs" />
+    <Compile Include="EventsAndDeligets\EventDeligatesBind.cs" />
+    <Compile Include="EventsAndDeligets\Ddemo.cs" />
+    <Compile Include="EventsAndDeligets\StuentPassorFail.cs" />
     <Compile Include="ExtensionMethod.cs" />
+    <Compile Include="MultithredingC\Demo.cs" />
     <Compile Include="Outkey.cs" />
     <Compile Include="Paramkey.cs" />
     <Compile Include="Program.cs" />
@@ -78,6 +88,7 @@
     <Compile Include="StringClass\ToggleLetter.cs" />
     <Compile Include="StringClass\StringCompair.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="Test1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
